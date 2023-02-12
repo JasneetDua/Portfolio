@@ -1,0 +1,14 @@
+@import 'c/styleVariables';
+
+.portfolio__wrap {
+	background: var(--c-primary-contrast);
+	padding: 10px;
+}
+.portfolio {
+	margin: 10px;
+	background: var(--c-primary);
+	padding: 10px;
+	min-height: 400px;
+	box-shadow: var(--c-primary-out-box-shadow);
+	border-radius: 20px;
+}
