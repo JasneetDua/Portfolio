@@ -12,3 +12,22 @@
 	box-shadow: var(--c-primary-out-box-shadow);
 	border-radius: 20px;
 }
+
+.head {
+	display: flex;
+	align-items: center;
+	padding: 24px;
+}
+
+.head__info {
+	flex-grow: 1;
+}
+.head__info-name {
+	font-size: 48px;
+	font-family: cursive;
+}
+
+.head__info-title {
+	font-size: 36px;
+	font-family: cursive;
+}
